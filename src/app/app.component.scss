@@ -1,0 +1,85 @@
+.number-sorting-container {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 10px rgba(17, 13, 13, 0.25);
+    background-color: #00CC5F;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+
+        label {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        input, select {
+            width: 93px;
+            height: 20px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        button {
+            cursor: pointer;
+            height: 50px;
+            width: 200px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border: none;
+            font-size: 2rem;
+            background-color: #4D8077;
+            color: white;
+            box-shadow: 0 5px 5px rgba(0, 0, 0, 1.25);
+        }
+
+        button:active {
+            box-shadow: none;
+        }
+
+        .input-numbers {
+            flex-direction: row;
+            margin-bottom: 20px;
+        }
+
+        .typed-numbers {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 20px;
+
+            p {
+                margin: 0;
+                margin-right: 5px;
+                font-weight: bold;
+            }
+
+            span {
+                text-align: center;
+                height: fit-content;
+            }
+        }
+
+        .select-order {
+            flex-direction: row;
+            margin-bottom: 20px;
+        }
+    }
+
+    .sorted-numbers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+            font-weight: bold;
+        }
+    }
+}    
