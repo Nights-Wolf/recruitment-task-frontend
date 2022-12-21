@@ -4,7 +4,7 @@
     justify-content:space-evenly;
     align-items: center;
     height: 500px;
-    width: 400px;
+    width: 500px;
     border-radius: 10px;
     box-shadow: 0 10px 10px 10px rgba(17, 13, 13, 0.25);
     background-color: #00CC5F;
@@ -14,7 +14,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 300px;
+        width: 100%;
 
         label {
             font-size: 1.2rem;
@@ -70,6 +70,18 @@
         .select-order {
             flex-direction: row;
             margin-bottom: 20px;
+        }
+
+        .submit_reset-buttons {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+            
+            #reset-button{
+                background-color: red;
+            }
         }
     }
 
